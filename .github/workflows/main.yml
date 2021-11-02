@@ -23,7 +23,7 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: web/
           exclude:
-            - scss/
+            - scss
             - css/style.css
             - js/scripts.js
 
