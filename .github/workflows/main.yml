@@ -22,3 +22,8 @@ jobs:
           username: open_dev.pmarut
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: web/
+          exclude:
+            - scss/
+            - css/style.css
+            - js/scripts.js
+
